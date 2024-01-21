@@ -1,31 +1,42 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    box-sizing: border-box ;
+    font-family: Arial, Helvetica, sans-serif ;
+
 }
+
+.bigbox {
+    height: 100vh  ;
+    min-width: 100vh  ;
+    background-color: #FFFFFF ;
+}
+.navbar {
+    display: flex;
+    justify-content: center ; 
+    text-align: center ;
+    background-color: aqua ;
+    height: 50px ;
+    background-color: #FFFFFF ;
+}
+
 
 #logo{
     color: #060a45;
     font-size: 36px;
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight:100px  ;
+    margin-right: 235px ;
+    margin-top: 15px ;
+     
 }
-
-a{
+a{  padding-right: 40px  ;
     font-size: 20px;
-    margin-left: 50px;
     font-style: none;
     color: black;
     text-decoration: none;
 }
 
-#navbar{
-    margin-top: 35px;
-    margin-left: 30px;
-    background-color: antiquewhite;
-}
+
 
 button{
     background-color: #060e7a;
@@ -34,7 +45,6 @@ button{
     border-radius: 9px;
     color: white;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3px;
 }
 
@@ -42,24 +52,46 @@ button{
     margin-right: 50px;
     margin-left: 180px;
 }
+.main {
+    display: flex; 
+    justify-content: center ;
+    text-align: center ;
+    padding-top: 165px ;
+}
 
 h1{
     font-size: 60px;
     text-align: center;
     color: #01053a;
     margin-left: 40px;
+    padding-top: 15px ;
 }
 
 h{
     font-size: 22px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     color: #01053a;
+    padding-top: 70px ;
 }
 
 #start{
+    padding-top: 40px ;
     text-align: center;
 }
-
+.button2 {
+    background-color: #222684  ;
+    height: 35px ;
+    width: 135px ;
+    text-align: center ;
+    padding-right: 5px ;
+    margin-right: 69px ;
+    font-weight: 25px ;
+}
+.text1 {
+    font-weight: bold ;
+    font-size: 20px ;
+    padding-top: 3px ;
+    
+}
 
