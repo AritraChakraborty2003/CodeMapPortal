@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeMap</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,17 +16,19 @@
             <a href="#">Blog</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
-            <a class="login" href="#">Login</a>
-            <button>Register</button>
+            <button>Login</button>
       </div>
     </div>
-
-    <div class="main">
+    
+ <div class="main">
         <div class="box">
-         <h1> Learn to Code and Level Up Your </h1>
-         <h1> Skills </h1>
-         </div>
+         <img class = "ig1" src="image2.jpg" >
+        </div>
+    <div class = "text2">
+         <h1>Learn to <span class = "auto-type"></span>
+         </h1>
     </div>
+</div>
     <div class="main2">
     <h> Unlock your potential with codemap</h>
      </body>
@@ -37,6 +39,15 @@
     </div>
 
     
-</div> 
+</div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed(".auto-type",{
+        strings : [" Code and Level Up Your Skills...!!!" , "Coding like poetry should be short and concise.","Clean code always looks like it was written by someone who cares."],
+        typeSpeed : 150 ,
+        backSpeed : 150 , 
+        loop : true  
+    })
+</script> 
 </body>
 </html>
